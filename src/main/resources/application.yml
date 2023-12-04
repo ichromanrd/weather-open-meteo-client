@@ -1,3 +1,5 @@
 open-meteo-api:
   url:
     v1: https://api.open-meteo.com/v1
+big-data-cloud-api:
+  url: https://api.bigdatacloud.net/data
