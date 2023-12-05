@@ -15,7 +15,7 @@ class WeatherCacheService(
 ) {
 
     companion object {
-        private val TTL = Duration.ofDays(7)
+        private val TTL = Duration.ofMinutes(15)
     }
 
     fun get(id: String, callback: Supplier<Mono<WeatherApiResponse>>): Mono<WeatherApiResponse> {
