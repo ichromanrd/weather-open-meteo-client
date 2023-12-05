@@ -21,6 +21,6 @@ data class ReverseGeocodingResponse(
     val principalSubdivisionCode: String,
     val city: String,
     val locality: String,
-    val postCode: String,
+    val postcode: String,
     val plusCode: String,
 )
