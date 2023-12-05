@@ -28,6 +28,7 @@ dependencies {
 
     developmentOnly("org.springframework.boot:spring-boot-devtools")
 
+    testImplementation("io.mockk:mockk:1.13.8")
     testImplementation("io.projectreactor:reactor-test")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
